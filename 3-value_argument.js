@@ -1,7 +1,7 @@
-let value = process.argv[2];
+let argument = process.argv[2];
 
-if (value === undefined) {
+if (argument === undefined) {
   console.log("No argument");
 } else {
-  console.log(value);
+  console.log(argument);
 }

@@ -1,8 +1,12 @@
-let value = process.argv[2];
-let value1 = process.argv[3];
+const values = process.argv[2];
+let count = 0;
 
-if (value === undefined){
-    console.log("No argument")
-} else{
-    console.log(value1);
+for (const _ of args) {
+  count++;
+}
+
+if (count === 0) {
+  console.log("No argument");
+} else {
+  console.log("values");
 }

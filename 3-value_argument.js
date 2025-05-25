@@ -8,5 +8,5 @@ for (const _ of args) {
 if (count === 0) {
   console.log("No argument");
 } else {
-  console.log("values");
+  console.log(values);
 }

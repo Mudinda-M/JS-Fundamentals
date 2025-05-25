@@ -1,11 +1,9 @@
 let value = process.argv[2];
 
-if (value === undefined || isNaN(parseInt(value))) {
-    console.log("Missing number of occurrences");
-}else{
-    let i = 0;
-    while(i < parseInt(value)){
-        console.log(value);
-        i++;
-}
+for (let i = 0; i < value; i++) {
+    if (i === 0){
+        console.log("No argument");
+    } else{
+        console.log(value[i]);
+    }
 }
